@@ -9,7 +9,7 @@ namespace RestWithASPNet.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CalculatorController : ControllerBase
+    public class PersonsController : ControllerBase
     {
         //GET calculator/sum/5/3
         [HttpGet("sum/{firstNumber}/{secondNumber}")]
